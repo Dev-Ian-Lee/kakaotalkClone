@@ -1,0 +1,130 @@
+.more-screen .user-component {
+  position: relative;
+}
+
+.more-screen .user-component__title {
+  font-size: 18px;
+}
+
+.more-screen .user-component__phone-number {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 145px;
+}
+
+.more-screen .user-component__phone-number i {
+  color: tomato;
+  position: absolute;
+  bottom: -1px;
+  right: 0px;
+}
+
+.more-screen .user-component .fa-comment-alt {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: black;
+  opacity: 0.9;
+}
+
+.banking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+  padding-bottom: 25px;
+}
+
+.banking .divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--gray);
+  opacity: 0.5;
+  margin: 0px 5px;
+}
+
+.banking .banking__column:first-child {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.banking__column:first-child span:nth-child(2) {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.banking .banking__column:last-child {
+  display: flex;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-screen .icon-row span {
+  font-size: 14px;
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.icon-row__second {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-row__second .icon-row__icon:first-child {
+  margin-right: 50px;
+}
+
+.more-suggestions {
+  margin-top: 40px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 20px;
+  color: white;
+}
+
+.more-suggestions__icon-text {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.more-suggestions__second-icons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}

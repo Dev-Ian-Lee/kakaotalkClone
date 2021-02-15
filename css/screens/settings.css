@@ -1,0 +1,25 @@
+.settings__list__set {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.settings__list__set i {
+  margin-left: 5px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.settings__list__set__column:first-child span {
+  position: absolute;
+  left: 40px;
+}
+
+.settings__list__set__column:last-child {
+  opacity: 0.6;
+  position: absolute;
+  right: 0;
+}
